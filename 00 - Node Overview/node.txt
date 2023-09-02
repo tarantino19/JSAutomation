@@ -1,0 +1,17 @@
+just js on your own computer
+
+browswr run js does not have access to to computer file system
+
+sec concern obv
+
+nodejs has access to file system
+
+npm  - code others has written
+
+e.g. faker.js
+
+sync
+fs.readFileSync fs.writeFileSync
+easier to write read, but performance might be a problem if scaled    
+async
+fs.readFile   fs.writeFile
